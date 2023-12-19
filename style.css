@@ -1,0 +1,93 @@
+body {
+     margin: 0;
+      padding-top: 800px;
+       text-align: center;
+     }
+
+      .profile {
+         border-radius: 35%;
+        } 
+        #welcome { 
+            position: absolute;
+             bottom: 0;
+              background: linear-gradient(#0c65d1 0%, #78edff 100%);
+               display: table;
+               width: 100%;
+                height: 100%;
+            }
+
+             img{
+                width: 40%;
+                 height: 40%;
+                 }
+                 
+                 h1 { 
+                    font-size: 40px;
+                     font-family: sans-serif;
+                      font-weight: 300;
+                     }
+                      #name { 
+                        font-size: 50px; 
+                        font-family: cursive;
+                     }
+                     
+                     h2 {
+                         font-size: 30px;
+                          font-weight: 300;
+                           font-family: monospace;
+                         }
+                         
+                         #bio {
+                             font-family: cursive;
+                              padding: 50px;
+                             }
+                             
+                             .line {
+                                 height: 6px;
+                                  background-color: #000;
+                                  width: 70px;
+                                   margin: 8px auto;
+                                 }
+                                 
+                                  .parallax-inner {
+                                     display: table-cell;
+                                      vertical-align: middle
+                                   }
+
+                                   .menu{
+                                    position: fixed;
+                                    background: white;
+                                    width: 100%;
+                                    margin-top: 0px;
+                                    top: 0px;
+                                    z-index: 10;
+                                   }
+
+                                   .links{
+                                    display:inline;
+                                    padding-left: 30px;
+                                    padding-right: 25px;
+                                    font-family: fantasy;
+                                    font-size: 20px;
+                                   }
+
+                                   a{
+                                    text-decoration: none;
+                                   }
+
+                                   #writings a{
+                                    text-decoration: underline;
+                                    color: aqua;
+                                   }
+
+                                   #contact{
+                                    background-color: #0c65d1;
+                                   }
+
+                                   #contact iframe{
+                                    width: 100%;
+                                   }
+                                   
+                                   .contact_1 h3{
+                                    display: inline;
+                                   }
